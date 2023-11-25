@@ -1,0 +1,39 @@
+train:
+exp15 yolov5原模型
+exp16 yolov5+MSA注意力
+exp17 yolov5+MSA1注意力
+exp18 yolov5+MSA1注意力
+exp19 yolov5+可变卷积
+exp20 yolov5+sSE最后一层
+exp22 yolov5+通道注意力CA
+exp23 yolov5+sSE中间层
+exp24 yolov5+sSE中间层和最后一层
+exp25 yolov5+两个DCNC3中下
+exp26 yolov5+一个DCNC3下
+exp27 yolov5+一个DCNC3中
+exp30 yolov5+DCNC3+MSA1
+exp31 yolov5+DCNC3+MSA1+SIoU
+exp32 yolov5+sSE
+exp33 yolov5+DCNC3+MSA1+SIoU
+exp34 yolov5+bifpn
+exp35 yolov5+Repvgg
+exp36 yolov5+bifpn1+p3
+exp37 yolov5+bifpn1+p234
+exp38 yolov5+bifpn+p45
+exp39 yolov5+bifpn+p4+relu
+exp40 yolov5+bifpn+p45+relu
+exp41 yolov5+backbone(加一层）
+exp42 yolov5+backbone1(减一层）
+exp43 yolov5+3331
+exp44 yolov5+3441
+exp45 yolov5+all(bifpn+MSA+backbone)
+exp46 yolov5+fod1(4个detect)
+exp47 yolov5+中危FOD预训练
+exp50 yolov5+all(bifpn+MSA+backbone)+中危FOD预训练
+
+ssh -p 54831 root@region-41.seetacloud.com
+gVGU0LyBJG
+
+detect:
+exp5=>train/exp15
+exp6=>train/exp16

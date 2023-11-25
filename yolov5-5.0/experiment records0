@@ -1,0 +1,17 @@
+train:
+exp15 yolov5原模型
+exp16 yolov5+MSA注意力
+exp17 yolov5+MSA1注意力
+exp18 yolov5+MSA1注意力
+exp19 yolov5+可变卷积
+exp20 yolov5+sSE最后一层
+exp23 yolov5+sSE中间层
+exp24 yolov5+sSE中间层和最后一层
+exp25 yolov5+两个DCNC3中下
+exp26 yolov5+一个DCNC3下
+exp27 yolov5+一个DCNC3中
+
+
+detect:
+exp5=>train/exp15
+exp6=>train/exp16
